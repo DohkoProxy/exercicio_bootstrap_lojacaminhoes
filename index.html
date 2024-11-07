@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capivara Caminhoes</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <style>
+    header .navbar-brand{
+        font-family: "Fjalla One", sans-serif;
+        font-size: 45px;
+    }
+
+    body{
+        background-image: url(./midias/truck-2407264.jpg);
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+        background-color: rgba(0, 0, 0, 0.8); 
+        background-blend-mode: overlay; 
+    }
+
+    .carousel-item img{
+            height: 600px;
+            width: 100%;
+            object-fit: cover;
+        }
+
+    h2{
+        font-family: "Fjalla One", sans-serif;
+        font-size: 45px;
+        color: aliceblue;
+        margin-top: 42px;
+    }
+    
+    #mensagem {
+        resize: none;
+    }
+</style>
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./midias/Captura_de_tela_de_2024-11-06_09-17-11-removebg-preview.png" alt="logo-loja" style="height: 80px;">
+                    Capivara Caminhões
+                </a>
+                <ul class="navbar-nav flex-row">
+                    <li class="nav-item ms-3">
+                        <a class="nav-link active" href="#sobre-a-loja">Sobre nós</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a class="nav-link" href="#caminhoes">Caminhões</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a class="nav-link" href="#fale-conosco">Fale conosco</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div id="carousel-control" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="2000" class="carousel-item active">
+                <img class="d-block w-100" src="./midias/truck-2591007_1920.jpg" alt="caminhao1">
+            </div>
+            <div data-bs-interval="2000" class="carousel-item">
+                <img class="d-block w-100" src="./midias/truck-2707699_1920.jpg" alt="caminhao2">
+            </div >
+            <div data-bs-interval="2000" class="carousel-item">
+                <img class="d-block w-100" src="./midias/truck-2707700_1920.jpg" alt="caminhao3">
+            </div>
+        </div>
+        <button data-bs-target="#carousel-control" data-bs-slide="prev" class="carousel-control-prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>   
+        <button data-bs-target="#carousel-control" data-bs-slide="next" class="carousel-control-next">
+            <span class="carousel-control-next-icon"></span>
+        </button>   
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-control" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carousel-control" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel-control" data-bs-slide-to="2"></button>
+        </div>
+    </div>
+
+    <div id="sobre-a-loja" class="container">
+        <h2>Sua Escolha para Caminhões de Alta Qualidade</h2>
+        <div class="row">
+            <div class="col-12">
+                <article class="card text-bg-dark">
+                    <img src="./midias/freepik__candid-image-photography-natural-textures-highly-r__98763.jpeg" alt="fachada-loja">
+                    <div class="card-body">
+                        <h3 class="card-title">Sobre nós</h3>
+                        <p class="card-text">
+                            A Capivara Caminhões é uma loja moderna e especializada na comercialização de caminhões de todos os tipos. 
+                            Nossa missão é oferecer as melhores opções do mercado, com foco em eficiência, inovação e excelência no atendimento. 
+                            Com uma equipe altamente capacitada e apaixonada pelo setor de transporte, nossa loja é referência para empresas e autônomos 
+                            que buscam qualidade e segurança.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <div id="caminhoes" class="container">
+        <h2>Caminhões</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <article class="card text-bg-dark">
+                    <header class="card-header">
+                        Volvo FH 540
+                    </header>
+                    <img src="https://autospesados.com.br/wp-content/uploads/2021/06/volvo-fh-540-2022-1.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">FH 540</h4>
+                        <p class="card-text">Líder em vendas, com destaque no segmento de pesados, e é um dos favoritos entre transportadoras pela confiabilidade e desempenho.</p>
+                        <a href="#" class="btn btn-light">Saiba mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Atualizado em <time>06 de nov de 2024</time>
+                    </footer>
+                </article>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <article class="card text-bg-dark">
+                    <header class="card-header">
+                        Scania R 450
+                    </header>
+                    <img src="https://fotos-estradao-estadao.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2024/05/21200102/WM23019-085.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">R 450</h4>
+                        <p class="card-text">Ocupa a segunda posição, oferecendo robustez e eficiência, especialmente em longas distâncias, sendo bem popular em operações de carga pesada.</p>
+                        <a href="#" class="btn btn-light">Saiba mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Atualizado em <time>06 de nov de 2024</time>
+                    </footer>
+                </article>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <article class="card text-bg-dark">
+                    <header class="card-header">
+                        DAF XF 530
+                    </header>
+                    <img src="https://alistrucks.com.br/site2021/wp-content/uploads/2022/04/WhatsApp-Image-2022-04-08-at-13.44.37.jpeg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">XF 530</h4>
+                        <p class="card-text">Fecha o top 3 com seu motor potente e tecnologia avançada, ganhando preferência em segmentos que valorizam economia de combustível e conforto.</p>
+                        <a href="#" class="btn btn-light">Saiba mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Atualizado em <time>06 de nov de 2024</time>
+                    </footer>
+                </article>
+            </div>
+        </div>
+    </div>
+    
+    <div id="fale-conosco" class="container">
+        <div class="row">
+            <div class="col">
+                <h2>Fale conosco</h2>
+                <form class="text-bg-dark p-4 rounded mb-4">
+                    <label class="form-label" for="nome">Seu nome:</label>
+                    <input class="form-control" type="text" id="nome" required>
+                    <label class="form-label" for="email">Seu E-mail:</label>
+                    <input class="form-control" type="email" id="email" required>
+                    <label class="form-label" for="telefone">Telefone:</label>
+                    <input class="form-control" type="tel" id="telefone" required>
+                    <label class="form-label text-light" for="mensagem">Mensagem:</label>
+                    <textarea class="form-control mb-3" id="mensagem" rows="4" placeholder="Escreva sua mensagem aqui..."></textarea>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="termos" required>
+                        <label class="form-check-label" for="termos">Li e concordo com os termos</label>
+                    </div>
+                    <button class="btn btn-light btn-lg">
+                        ENVIAR
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer bg-dark text-light py-3 mt-5">
+        <div class="container text-center">
+            &copy; 2024 todos os direitos reservados - Capivara Caminhões
+            <br>
+            Design feito por <a href="https://github.com/DohkoProxy" class="text-light" target="_blank">Dayvison Ferreira</a>
+        </div>
+    </footer>
+    
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
